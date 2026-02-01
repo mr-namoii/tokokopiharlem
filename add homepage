@@ -1,0 +1,104 @@
+index.html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Toko Kopi Harlem</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0f0f0f;
+      color: #ffffff;
+    }
+    header {
+      padding: 40px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #1a1a1a, #000);
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      color: #bbbbbb;
+    }
+    .section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .branches {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #1a1a1a;
+      border-radius: 16px;
+      padding: 25px;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 18px;
+      background: #ffffff;
+      color: #000;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Toko Kopi Harlem</h1>
+  <p>Café kekinian dengan vibe urban modern</p>
+</header>
+
+<section class="section">
+  <h2>Cabang Kami</h2>
+  <div class="branches">
+
+    <div class="card">
+      <h3>Sisingamangaraja — Sidoarjo</h3>
+      <p>Jl. Sisingamangaraja No.23, Sidokumpul</p>
+      <a class="btn" href="sidoarjo.html">Lihat Detail</a>
+    </div>
+
+    <div class="card">
+      <h3>Embong Malang — Surabaya</h3>
+      <p>Jl. Embong Malang No.10, Genteng</p>
+      <a class="btn" href="surabaya.html">Lihat Detail</a>
+    </div>
+
+    <div class="card">
+      <h3>Kartini — Sidoarjo (Grocery)</h3>
+      <p>Jl. Kartini No.32</p>
+      <a class="btn" href="sidoarjo.html">Lihat Detail</a>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 Toko Kopi Harlem
+</footer>
+
+</body>
+</html>
